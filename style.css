@@ -1,20 +1,23 @@
 body {
   margin: 0;
   min-width: 960px;
-  font-family: "Montserrat", "Helvetica", "Arial", sans-serif;
-  font-size: 16px;
+  font-size: 20px;
   line-height: 32px;
   color: #222222;
   background-color: #f2f4f6;
-  background-image: url("img/hero-bg.jpg");
+  background-image: url("img/pexels-katerina-holmes-5905611.jpg");
   background-repeat: no-repeat;
   background-position: top center;
+  font-family: 'Koulen', cursive;
+  font-family: 'Water Brush', cursive;
 }
 
 .container {
   max-width: 928px;
   margin: 0 auto;
   padding: 0 16px;
+  font-size: 100px;
+  font-family: 'Water Brush', cursive;
 }
 
 .page-header {
@@ -46,8 +49,12 @@ body {
   background-image: url("img/icon-phone-header.svg");
 }
 
+.header-theory {
+  margin-left:auto; 
+}
+
 .hero-image {
-  margin-bottom: 620px;
+  margin-bottom: 750px;
 }
 
 .hero-image .container {
@@ -57,7 +64,8 @@ body {
 
 .heading {
   margin: 0 0 16px;
-  font-family: "Old Standard TT", "Times", "Times New Roman", serif;
+  font-family: 'Koulen', cursive;
+  font-family: 'Water Brush', cursive;
   font-size: 88px;
   line-height: 96px;
   font-weight: 400;
@@ -79,7 +87,7 @@ body {
   font-size: 64px;
   line-height: 80px;
   font-weight: 400;
-  text-align: center;
+  text-align: left;
 }
 
 .user-image {
@@ -192,3 +200,14 @@ body {
   padding-left: 25px;
   background-image: url("img/icon-phone-footer.svg");
 }
+.page-header{
+  justify-content: center;
+  }
+  .text-heading{
+    width:500px;
+    margin: 430px 0 0 auto;
+  }
+  .text-h3{
+    width:500px;
+    margin: 200px 0 100 auto;
+  }
